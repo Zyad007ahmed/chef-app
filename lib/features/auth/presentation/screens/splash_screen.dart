@@ -38,8 +38,8 @@ class _SplashScreenState extends State<SplashScreen> {
           children: [
             CustomImage(
               imagePath: AppAssets.appLogo,
-              h: 120.h,
-              w: 120.w,
+              height: 120.h,
+              width: 120.w,
             ),
             SizedBox(height: 16.h),
             Text(AppStrings.chefApp.tr(context), style: Theme.of(context).textTheme.displayLarge),

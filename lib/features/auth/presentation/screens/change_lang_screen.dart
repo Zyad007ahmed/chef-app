@@ -31,8 +31,8 @@ class ChangeLangScreen extends StatelessWidget {
                   SizedBox(height: 116.h),
                   CustomImage(
                     imagePath: AppAssets.appLogo,
-                    h: 120.h,
-                    w: 120.w,
+                    height: 120.h,
+                    width: 120.w,
                   ),
                   SizedBox(height: 16.h),
                   Text(

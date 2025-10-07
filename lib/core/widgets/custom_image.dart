@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 
 class CustomImage extends StatelessWidget {
-  const CustomImage({super.key, required this.imagePath, this.h, this.w, this.fit = BoxFit.fill});
+  const CustomImage({super.key, required this.imagePath, this.height, this.width, this.fit = BoxFit.fill});
 
   final String imagePath ;
-  final double? h;
-  final double? w;
+  final double? height;
+  final double? width;
   final BoxFit? fit;
 
   @override
   Widget build(BuildContext context) {
     return Image.asset(
             imagePath,
-            height: h,
-            width: w,
+            height: height,
+            width: width,
             fit: BoxFit.fill,
           );
   }
